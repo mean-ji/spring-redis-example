@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean id="jedisConnectionFactory"-->
+<!--          class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"-->
+<!--          p:usePool="true"-->
+<!--          p:hostName="localhost"-->
+<!--          p:port="6379" />-->
+
+<!--    <bean id="redisTemplate" class="org.springfra함mework.data.redis.core.RedisTemplate"-->
+<!--          p:connectionFactory-ref="jedisConnectionFactory" />-->
+
+    <!-- redis -->
+<!--    <bean id="redisConnectionFactory"-->
+<!--          class="org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory"-->
+<!--          p:host-name="localhost"-->
+<!--          p:port="6379"-->
+<!--    />-->
+
+<!--    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate"-->
+<!--          p:connectionFactory-ref="redisConnectionFactory" />-->
+    <!-- redis -->
+<!--    <bean id="lettuceConnectionFactory" class="org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory" p:host-name="localhost" p:port="6379"/>-->
+
+
+<!--    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate" p:connectionFactory-ref="redisConnectionFactory" />-->
+
+<!--    <bean id="stringRedisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate" p:connectionFactory-ref="redisConnectionFactory" />-->
+</beans>
